@@ -2,6 +2,11 @@ package com.tasty.trade.api.rest.client.model.api;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
+import com.fasterxml.jackson.annotation.JsonTypeInfo.Id;
+import com.tasty.trade.api.rest.client.model.impl.EntityImpl;
+
+@JsonTypeInfo(defaultImpl = EntityImpl.class,use=Id.CLASS)
 public interface Entity {
 
 	

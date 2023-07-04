@@ -1,82 +1,119 @@
 package com.tasty.trade.api.rest.client.model.impl;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.tasty.trade.api.rest.client.model.api.TradingStatus;
 
 public class TradingStatusImpl implements TradingStatus {
 
+	@JsonProperty("description")
 	private String description;
 	
+	@JsonProperty("account-number")
 	private String accountNumber;
 	
+	@JsonProperty("clearing-account-number")
 	private String clearingAccountNumber;
 	
+	@JsonProperty("clearing-aggregation-identifier")
 	private String clearingAggregationIdentifier;
 	
+	@JsonProperty("day-trade-count")
 	private Integer dayTradeCount;
 	
+	@JsonProperty("equities-margin-calculation-type")
 	private String equitiesMarginCalculationType;
 	
+	@JsonProperty("calculation-type-fee-schedule-name")
 	private String calculationTypeFeeScheduleName;
 	
+	@JsonProperty("futures-margin-rate-multiplier")
 	private Double furturesMarginRateMultiplier;
 	
+	@JsonProperty("has-intraday-equities=margin")
 	private boolean hasIntradayEquitiesMargin;
 	
+	@JsonProperty("id")
 	private Integer id;
 	
+	@JsonProperty("is-aggregated-at-clearing")
 	private boolean isAggregatedAtClearing;
 	
+	@JsonProperty("is-closed")
 	private boolean isClosed;
 	
+	@JsonProperty("is-closing-only")
 	private boolean isClosingOnly;
 	
+	@JsonProperty("is-cryptocurrency-closing-only")
 	private boolean isCryptocurrencyClosingOnly;
 	
+	@JsonProperty("is-crypto-currency-enable")
 	private boolean isCryptocurrencyEnabled;
 	
+	@JsonProperty("is-frozen")
 	private boolean isFrozen;
 	
+	@JsonProperty("is-full-equity-margin-required")
 	private boolean isFullEquityMarginRequired;
 	
+	@JsonProperty("is-futures-closing-only")
 	private boolean isFuturesClosingOnly;
 	
+	@JsonProperty("is-futures-intra-day-enabled")
 	private boolean isFuturesIntraDayEnabled;
 	
+	@JsonProperty("is-futures-enabled")
 	private boolean isFuturesEnabled;
 	
+	@JsonProperty("is-in-day-trade-equity-maintenance-call")
 	private boolean isInDayTradeEquityMaintenanceCall;
 	
+	@JsonProperty("is-in-margin-call")
 	private boolean isInMarginCall;
 	
+	@JsonProperty("is-pattern-day-trader")
 	private boolean isPatternDayTrader;
 	
+	@JsonProperty("is-portfolio-margin-enabled")
 	private boolean isPortfolioMarginEnabled;
 	
+	@JsonProperty("is-risk-reduceing-only")
 	private boolean isRiskReduceingOnly;
 	
+	@JsonProperty("is-small-notional-futures-intra-day-enabled")
 	private boolean isSmallNotionalFuturesIntraDayEnabled;
 	
+	@JsonProperty("is-rolling-the-day-forward-enabled")
 	private boolean isRollTheDayForwardEnabled;
 	
+	@JsonProperty("are-far-otm-net-options-restricted")
 	private boolean areFarOtmNetOptionsRestricted;
 	
+	@JsonProperty("options-level")
 	private String optionsLevel;
 	
 	//TODO:Cast to Date Object.
+	@JsonProperty("pdt-rest-on")
 	private String pdtResetOn;
 	
+	@JsonProperty("short-calls-enabled")
 	private boolean shortCallsEnabled;
 	
+	@JsonProperty("small-notional-futures-margin-rate-multiplier-cmta-override")
 	private Double smallNotionalFuturesMarginRateMultiplierCmtaOverride;
 	
+	@JsonProperty("is-equity-offering-enabled")
 	private boolean isEquityOfferingEnabled;
 	
+	@JsonProperty("is-equity-offering-closing-only")
 	private boolean isEquityOfferingClosingOnly;
 	
 	//TODO: Cast to Date Object.
+	@JsonProperty("enhanced-fraud-safeguards-enabled-at")
 	private String enhancedFraudSafeguardsEnabledAt;
 	
 	//TODO: Cast to Date Object.
+	@JsonProperty("updated-at")
 	private String updatedAt;
 
 	/**
