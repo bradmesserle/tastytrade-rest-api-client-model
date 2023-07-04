@@ -6,11 +6,44 @@
 	<artifactId>tasty-trade-rest-api-model</artifactId>
 	<version>5.0.13-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	
+
 	<description>Tasty Trade Rest API Model</description>
-	
+
+
+	<properties>
+		<jackson-bom.version>2.15.2</jackson-bom.version>
+	</properties>
+
+
 	<dependencies>
-	
+
+		<!-- Jackson Faster Xml -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson-bom.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jdk8</artifactId>
+			<version>${jackson-bom.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jsr310</artifactId>
+			<version>${jackson-bom.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.module</groupId>
+			<artifactId>jackson-module-parameter-names</artifactId>
+			<version>${jackson-bom.version}</version>
+			<scope>compile</scope>
+		</dependency>
+
+
 		<!-- Testing -->
 
 		<dependency>
@@ -19,7 +52,7 @@
 			<version>4.13.2</version>
 			<scope>test</scope>
 		</dependency>
-		
-	    
+
+
 	</dependencies>
 </project>
