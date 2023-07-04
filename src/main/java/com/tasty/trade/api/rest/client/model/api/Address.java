@@ -1,8 +1,8 @@
-package com.tasty.trade.api.rest.client.api;
+package com.tasty.trade.api.rest.client.model.api;
 
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.annotation.JsonTypeInfo.Id;
-import com.tasty.trade.api.rest.client.impl.AddressImpl;
+import com.tasty.trade.api.rest.client.model.impl.AddressImpl;
 
 @JsonTypeInfo(defaultImpl = AddressImpl.class, use = Id.CLASS)
 public interface Address {

@@ -1,7 +1,7 @@
-package com.tasty.trade.api.rest.client.impl;
+package com.tasty.trade.api.rest.client.model.impl;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.tasty.trade.api.rest.client.api.Address;
+import com.tasty.trade.api.rest.client.model.api.Address;
 
 public class AddressImpl implements Address {
 

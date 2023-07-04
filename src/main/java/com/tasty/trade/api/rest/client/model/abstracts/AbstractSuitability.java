@@ -1,4 +1,4 @@
-package com.tasty.trade.api.rest.client.abstracts;
+package com.tasty.trade.api.rest.client.model.abstracts;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

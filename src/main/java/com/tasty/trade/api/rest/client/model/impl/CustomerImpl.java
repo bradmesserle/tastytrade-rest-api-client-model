@@ -1,8 +1,8 @@
-package com.tasty.trade.api.rest.client.impl;
+package com.tasty.trade.api.rest.client.model.impl;
 
-import com.tasty.trade.api.rest.client.api.Address;
-import com.tasty.trade.api.rest.client.api.Customer;
-import com.tasty.trade.api.rest.client.api.CustomerSuitability;
+import com.tasty.trade.api.rest.client.model.api.Address;
+import com.tasty.trade.api.rest.client.model.api.Customer;
+import com.tasty.trade.api.rest.client.model.api.CustomerSuitability;
 
 public class CustomerImpl implements Customer {
 

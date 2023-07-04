@@ -1,8 +1,8 @@
-package com.tasty.trade.api.rest.client.impl;
+package com.tasty.trade.api.rest.client.model.impl;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.tasty.trade.api.rest.client.abstracts.AbstractSuitability;
-import com.tasty.trade.api.rest.client.api.EntitySuitability;
+import com.tasty.trade.api.rest.client.model.abstracts.AbstractSuitability;
+import com.tasty.trade.api.rest.client.model.api.EntitySuitability;
 
 public class EntitySuitabilityImpl extends AbstractSuitability implements EntitySuitability {
 

@@ -1,6 +1,6 @@
-package com.tasty.trade.api.rest.client.impl;
+package com.tasty.trade.api.rest.client.model.impl;
 
-import com.tasty.trade.api.rest.client.api.TradingStatus;
+import com.tasty.trade.api.rest.client.model.api.TradingStatus;
 
 public class TradingStatusImpl implements TradingStatus {
 
