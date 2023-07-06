@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.tastytrade.rest.api.model</groupId>
 	<artifactId>tasty-trade-rest-api-model</artifactId>
-	<version>5.0.13-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<description>Tasty Trade Rest API Model</description>
