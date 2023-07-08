@@ -1,8 +1,8 @@
-package com.tasty.trade.api.rest.client.model.api;
+package com.tasty.trade.api.rest.client.instruments.model.api;
 
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.annotation.JsonTypeInfo.Id;
-import com.tasty.trade.api.rest.client.model.impl.TickSizeImpl;
+import com.tasty.trade.api.rest.client.instruments.model.impl.TickSizeImpl;
 
 @JsonTypeInfo(use = Id.CLASS, defaultImpl = TickSizeImpl.class)
 public interface TickSize {

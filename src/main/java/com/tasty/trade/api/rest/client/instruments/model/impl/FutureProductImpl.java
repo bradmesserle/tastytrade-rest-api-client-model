@@ -1,8 +1,8 @@
-package com.tasty.trade.api.rest.client.model.impl;
+package com.tasty.trade.api.rest.client.instruments.model.impl;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.tasty.trade.api.rest.client.instruments.model.api.FutureProduct;
 import com.tasty.trade.api.rest.client.model.abstracts.AbstractFutureProduct;
-import com.tasty.trade.api.rest.client.model.api.FutureProduct;
 
 public class FutureProductImpl extends AbstractFutureProduct implements FutureProduct {
 

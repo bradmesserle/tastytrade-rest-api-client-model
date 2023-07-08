@@ -1,8 +1,8 @@
-package com.tasty.trade.api.rest.client.model.impl;
+package com.tasty.trade.api.rest.client.instruments.model.impl;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.tasty.trade.api.rest.client.instruments.model.api.Cryptocurrency;
 import com.tasty.trade.api.rest.client.model.abstracts.AbstractInstrument;
-import com.tasty.trade.api.rest.client.model.api.Cryptocurrency;
 
 public class CryptocurrencyImpl extends AbstractInstrument implements Cryptocurrency {
 

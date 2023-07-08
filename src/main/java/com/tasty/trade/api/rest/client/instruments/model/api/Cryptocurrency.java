@@ -1,8 +1,9 @@
-package com.tasty.trade.api.rest.client.model.api;
+package com.tasty.trade.api.rest.client.instruments.model.api;
 
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.annotation.JsonTypeInfo.Id;
-import com.tasty.trade.api.rest.client.model.impl.CryptocurrencyImpl;
+import com.tasty.trade.api.rest.client.instruments.model.impl.CryptocurrencyImpl;
+import com.tasty.trade.api.rest.client.model.api.Instrument;
 
 @JsonTypeInfo(use = Id.CLASS, defaultImpl = CryptocurrencyImpl.class)
 public interface Cryptocurrency extends Instrument {

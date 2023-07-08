@@ -1,7 +1,7 @@
-package com.tasty.trade.api.rest.client.model.impl;
+package com.tasty.trade.api.rest.client.instruments.model.impl;
 
+import com.tasty.trade.api.rest.client.instruments.model.api.FutureOptionProduct;
 import com.tasty.trade.api.rest.client.model.abstracts.AbstractFutureProduct;
-import com.tasty.trade.api.rest.client.model.api.FutureOptionProduct;
 
 public class FutureOptionProductImpl extends AbstractFutureProduct implements FutureOptionProduct {
 
